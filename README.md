@@ -10,7 +10,7 @@
 | Gustavo Melo dos Santos | RM573562 |
 | João Pedro Costenari Silva | RM572260 |
 
-**Vídeo técnico da Sprint 3:** _(inserir link do YouTube)_
+**Vídeo técnico da Sprint 3:** 
 **Sprint 1 (proposta):** https://github.com/Melirous/1CCPO-Equipe2-S1-SERS
 **Sprint 2 (arquitetura):** https://github.com/Melirous/1CCPO-Equipe02-S2-SERS
 
