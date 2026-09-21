@@ -9,9 +9,13 @@
 | João Victor Canello Ferian | RM573295 |
 | Gustavo Melo dos Santos | RM573562 |
 | João Pedro Costenari Silva | RM572260 |
+| Lucas Klein | RM570029 |
+
 
 **Vídeo técnico da Sprint 3:** 
+
 **Sprint 1 (proposta):** https://github.com/Melirous/1CCPO-Equipe2-S1-SERS
+
 **Sprint 2 (arquitetura):** https://github.com/Melirous/1CCPO-Equipe02-S2-SERS
 
 ---
