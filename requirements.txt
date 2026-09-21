@@ -1,0 +1,3 @@
+# O simulador, o controlador e os testes usam apenas a biblioteca padrao.
+# matplotlib e necessario somente para gerar os graficos e o painel.
+matplotlib>=3.7
