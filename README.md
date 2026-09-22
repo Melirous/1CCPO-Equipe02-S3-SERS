@@ -12,7 +12,7 @@
 | Lucas Klein | RM570029 |
 
 
-**Vídeo técnico da Sprint 3:** https://youtu.be/saeH_or2fBE
+**Vídeo técnico da Sprint 3:** https://youtu.be/bzoh9Re_jHI
 
 **Sprint 1 (proposta):** https://github.com/Melirous/1CCPO-Equipe2-S1-SERS
 
