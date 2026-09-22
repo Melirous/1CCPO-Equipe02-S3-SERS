@@ -1,23 +1,3 @@
-"""
-GreenVolt - Controlador de Despacho Energetico
-==============================================
-
-Nucleo logico do projeto. E a versao em Python da rotina que roda no
-microcontrolador RISC-V (ver firmware/decisao_riscv.s). A cada ciclo de
-controle ele recebe a telemetria dos sensores e decide, em ordem de
-prioridade:
-
-    1. Atender a demanda com energia fotovoltaica.
-    2. Completar com o banco de baterias (obrigatorio se a rede caiu ou se
-       estamos em horario de ponta).
-    3. Completar com a rede, respeitando a demanda contratada.
-    4. Se ainda faltar potencia, entrar em MODO ECONOMIA e ratear a energia
-       disponivel entre os veiculos, priorizando quem tem menor SoC.
-
-O excedente fotovoltaico carrega a bateria; o que sobra e registrado como
-curtailment (energia que seria desperdicada sem armazenamento).
-"""
-
 from __future__ import annotations
 
 from dataclasses import dataclass, field
