@@ -1,3 +1,10 @@
+"""
+GreenVolt - Testes de integracao do controlador
+===============================================
+
+Cada cenario abaixo verifica uma das regras de despacho descritas no README e
+implementadas tanto em controlador.py quanto em firmware/decisao_riscv.s.
+"""
 from __future__ import annotations
 
 import os
