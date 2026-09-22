@@ -1,19 +1,3 @@
-"""
-GreenVolt - Geracao de graficos e painel supervisorio
-=====================================================
-
-Le os arquivos de dados produzidos por src/simulador.py e gera:
-
-    docs/grafico_despacho.png        -> geracao x demanda x fontes (24 h)
-    docs/grafico_bateria.png         -> SoC do banco e eventos de automacao
-    docs/grafico_fontes.png          -> composicao da energia entregue
-    dados/eventos_automacao.csv      -> log dos comandos emitidos pelo controlador
-    docs/dashboard.html              -> painel supervisorio (arquivo unico)
-
-Uso:
-    python src/dashboard.py
-"""
-
 from __future__ import annotations
 
 import base64
