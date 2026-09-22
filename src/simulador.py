@@ -1,4 +1,16 @@
 """
+GreenVolt - Simulador de operacao (24 horas)
+============================================
+
+Executa um dia completo de operacao do eletroposto com passo de 1 minuto,
+integrando sensores + controlador + carregadores, e grava:
+
+    dados/telemetria_24h.csv    -> uma linha por minuto de operacao
+    dados/sessoes_recarga.csv   -> uma linha por sessao de recarga concluida
+    dados/resumo_diario.json    -> indicadores consolidados do dia
+
+Uso:
+    python src/simulador.py
 Simulador de operacao (24 horas)
 """
 
