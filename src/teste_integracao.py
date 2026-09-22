@@ -1,15 +1,3 @@
-"""
-GreenVolt - Testes de integracao do controlador
-===============================================
-
-Cada cenario abaixo verifica uma das regras de despacho descritas no README e
-implementadas tanto em controlador.py quanto em firmware/decisao_riscv.s.
-E o roteiro usado na demonstracao do video.
-
-Uso:
-    python src/teste_integracao.py
-"""
-
 from __future__ import annotations
 
 import os
@@ -17,8 +5,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from controlador import BancoDeBaterias, ControladorGreenVolt  # noqa: E402
-
+from controlador import BancoDeBaterias, ControladorGreenVolt
 PASSO_H = 1 / 60
 
 
